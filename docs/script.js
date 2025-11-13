@@ -88,20 +88,20 @@ function play(){
   document.getElementById("messages").innerHTML += "Playing...";
   }
 
-//toggle switch
-document.addEventListener('DOMContentLoaded', function () {
-    var checkbox = document.querySelector('input[type="checkbox"]');
+// //toggle switch
+// document.addEventListener('DOMContentLoaded', function () {
+//     var checkbox = document.querySelector('input[type="checkbox"]');
   
-    checkbox.addEventListener('change', function () {
-      if (checkbox.checked) {
-        // do this
-        console.log('Checked');
-      } else {
-        // do that
-        console.log('Not checked');
-      }
-    });
-  });
+//     checkbox.addEventListener('change', function () {
+//       if (checkbox.checked) {
+//         // do this
+//         console.log('Checked');
+//       } else {
+//         // do that
+//         console.log('Not checked');
+//       }
+//     });
+//   });
 
 
 //keep with end of scroling
