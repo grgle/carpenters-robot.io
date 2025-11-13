@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 //keep with end of scroling
-document.getElementById('scrollit').scrollTop = 9999999;
+//document.getElementById('scrollit').scrollTop = 9999999;
 
 
 function sliderValue(){
