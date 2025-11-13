@@ -3,8 +3,8 @@ commands = "gergo/audio.json"
 function startConnect(){
     clientID = "clientID - "+parseInt(Math.random() * 100);
     host = "broker.hivemq.com";   
-    //port = "8081";  
-    port = "1883";
+    port = "8081";  
+    //port = "1883";
     //userId  = document.getElementById("username").value;  
     //passwordId = document.getElementById("password").value;  
 
