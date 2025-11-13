@@ -1,9 +1,10 @@
-commands = "carpenters_robot/commands"
+commands = "gergo/audio.json"
 
 function startConnect(){
     clientID = "clientID - "+parseInt(Math.random() * 100);
-    host = "test.mosquitto.org";   
-    port = "8081";  
+    host = "broker.hivemq.com";   
+    //port = "8081";  
+    port = "1883";
     //userId  = document.getElementById("username").value;  
     //passwordId = document.getElementById("password").value;  
 
@@ -17,7 +18,7 @@ function startConnect(){
 }
 
 function onConnect(){
-    topic =  "carpenters_robot/"+ document.getElementById("topic_s").value;
+    topic =  "gergo/"+ document.getElementById("topic_s").value;
     document.getElementById("messages").innerHTML += "<span> Subscribing to topic "+topic + "</span><br>";
     client.subscribe(topic);
 }
